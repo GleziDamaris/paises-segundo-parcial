@@ -1,1 +1,22 @@
-//Este es un archivo json para para trabajar mas adelante**
+async function fetching() {
+    const response = await fetch("https://restcountries.com/v3.1/all")
+    const json =  await response.json()
+    return json
+  }
+  
+  fetching(). then(
+        response => {
+            let template = ``
+            response.forEach(item => {
+                template += `
+                    <div class="item">
+                    <img src="${item.flags.png}" />
+                    <h2>${item.name.official}</h2>
+                    <h3>${item.region}</h3>
+                    </div>
+                `
+            })
+            result.innerHTML = template
+          }
+  )
+  
