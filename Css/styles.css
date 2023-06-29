@@ -97,3 +97,8 @@ section {
 .item-description h3 {
     font-size: 1.2rem;
 }
+
+*{
+    margin: 2.0;
+    padding: 0;
+}
