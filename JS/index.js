@@ -10,11 +10,13 @@ async function fetching() {
             response.forEach(item => {
                 template += `
                 <div class="item">
-                <img src="${item.flags.png}"/>
-                    <div class="item-description">
-                        <h2>${item.name.official}</h2>
-                        <h3>${item.region}</h3>
-                    </div>
+                <a href="currency.html?id=${item.id}">
+                    <img src="${item.flags.png}"/>
+                        <div class="item-description">
+                          <h2>${item.name.official}</h2>
+                          <h3>${item.region}</h3>
+                        </div>
+                  </a>    
                 </div>
               `
             })
