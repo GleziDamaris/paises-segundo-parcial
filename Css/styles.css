@@ -97,12 +97,3 @@ section {
 .item-description h3 {
     font-size: 1.2rem;
 }
-
-.estilos {
-    margin: auto;
-    background-color: #fff;
-}
-
-.estilos ul {
-    list-style: none;
-}
