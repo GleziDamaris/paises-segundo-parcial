@@ -97,3 +97,10 @@ section {
 .item-description h3 {
     font-size: 1.2rem;
 }
+
+#result_capital {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,5fr);
+    gap: 25px;
+}
