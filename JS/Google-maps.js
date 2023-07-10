@@ -9,16 +9,16 @@ async function fetching() {
             let template = ``
             response.forEach(item => {
                 template += `
-                <div class="item-detail-timezone">
+                <div class="item-detail-googlemaps">
                 <img src="${item.flags.png}"/>
-                    <div class="item-detail-description-timezone">
+                    <div class="item-detail-description-googlemaps">
                         <h2> ${item.name.official}</h2>
-                        <h3>Name common: ${item.name.common}</h3>
-                        <h2>${item.timezones}</h2>
+                        <h3>Link de GoogleMaps: ${item.maps.googleMaps}</h3>
+                        <h4>Link de openStreetMaps: ${item.maps.openStreetMaps}</h4>
                     </div>
                 </div>
             `
             })
-            result_timezone.innerHTML = template
+            result_GoogleMaps.innerHTML = template
         }
 )
