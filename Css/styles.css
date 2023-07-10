@@ -104,3 +104,36 @@ section {
     grid-template-columns: repeat(3,5fr);
     gap: 25px;
 }
+
+#result_timezone {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,5fr);
+    gap: 25px;
+}
+
+.item-detail-timezone {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+}
+
+#result_GoogleMaps {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,5fr);
+    gap: 25px;
+}
+
+
+.item-detail-googlemaps {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+}
+
+.item-detail-description-googlemaps h4 {
+    font-size: 1rem;
+}
