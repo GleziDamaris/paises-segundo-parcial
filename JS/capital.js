@@ -9,9 +9,9 @@ fetching(). then(
           let template = ``
           response.forEach(item => {
               template += `
-              <div class="item-detail">
+              <div class="item">
               <img src="${item.flags.png}"/>
-                  <div class="item-detail-description">
+                  <div class="item-description">
                       <h2> ${item.name.official}</h2>
                       <h3> capital city: ${item.capital}</h3>
                       <h3> latitud/longitud: ${item.capitalInfo.latlng}</h3>

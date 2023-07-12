@@ -9,9 +9,9 @@ async function fetching() {
             let template = ``
             response.forEach(item => {
                 template += `
-                <div class="item-detail-timezone">
+                <div class="item">
                 <img src="${item.flags.png}"/>
-                    <div class="item-detail-description-timezone">
+                    <div class="item-description">
                         <h2> ${item.name.official}</h2>
                         <h3>Name common: ${item.name.common}</h3>
                         <h2>${item.timezones}</h2>

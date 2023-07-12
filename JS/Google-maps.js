@@ -9,12 +9,12 @@ async function fetching() {
             let template = ``
             response.forEach(item => {
                 template += `
-                <div class="item-detail-googlemaps">
+                <div class="item">
                 <img src="${item.flags.png}"/>
-                    <div class="item-detail-description-googlemaps">
+                    <div class="item-description">
                         <h2> ${item.name.official}</h2>
-                        <h3>Link de GoogleMaps: ${item.maps.googleMaps}</h3>
-                        <h4>Link de openStreetMaps: ${item.maps.openStreetMaps}</h4>
+                        <h3><a href="${item.maps.googleMaps}" target="_BLANK">Link de GoogleMaps</a></h3>
+                        <h4><a href="${item.maps.openStreetMaps}" target="_BLANK">Link de openStreetMaps</a></h4>
                     </div>
                 </div>
             `
