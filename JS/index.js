@@ -12,7 +12,7 @@ async function fetching() {
                 <div class="item">
                 <img src="${item.flags.png}"/>
                     <div class="item-description">
-                        <h1>${item.name.official}</h1>
+                        <h2>${item.name.official}</h2>
                         <h2>Región: ${item.region}</h2>
                     </div>
                 </div>
