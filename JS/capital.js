@@ -13,7 +13,7 @@ fetching(). then(
               <img src="${item.flags.png}"/>
                   <div class="item-description">
                       <h2> ${item.name.official}</h2>
-                      <h3> capital city: ${item.capital}</h3>
+                      <h2> capital city: ${item.capital}</h2>
                       <h3> latitud/longitud: ${item.capitalInfo.latlng}</h3>
                   </div>
               </div>
