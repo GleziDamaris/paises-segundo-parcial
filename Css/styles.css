@@ -92,7 +92,7 @@ section {
 }
 
 .item-description h2 {
-    font-size: 13px;
+    font-size: 18px;
 }
 
 .item-description h3 {
@@ -141,4 +141,7 @@ section {
 
 .item-detail-description-googlemaps h4 {
     font-size: 1rem;
+}
+.controls{
+    margin: 50px 0;
 }
